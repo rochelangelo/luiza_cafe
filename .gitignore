@@ -8,6 +8,13 @@
 # testing
 /coverage
 
+# Ignorar arquivos específicos
+/toDo
+
+# Ignorar arquivos de mídia e fonte
+/public/images/*
+/public/fonts/*
+
 # production
 /build
 
