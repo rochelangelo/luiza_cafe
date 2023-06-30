@@ -8,6 +8,10 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
 }
 
+.app {
+    background-color: var(--background-color)
+}
+
 html{
     @media (max-width: 899px){
 
@@ -23,6 +27,7 @@ body {
 
 body {
     font-family: 'Avenir Next LT Pro', sans-serif;
+    font-weight: normal;
 }
 
 .img_title {
@@ -43,6 +48,8 @@ body {
         width: 70%;
         padding: 10px;
         box-sizing: border-box;
+        font-size: 12px;
+        font-weight: normal;
     }
     @media (min-width: 900px){
         display: flex;
@@ -50,6 +57,8 @@ body {
         width: 70%;
         padding: 10px;
         box-sizing: border-box;
+        font-size: 12px;
+        font-weight: normal;
     }
 }
 
@@ -117,8 +126,15 @@ body {
 }
 
 .video_apresentacao {
-    width: 100%;
-    object-fit: cover;
+    @media (max-width: 1550px){
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    @media (min-width:1551px){
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 :root {
