@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container } from './styles';
+import { Container, Menu } from './styles';
 
 const Header = () => {
     const [menuAberto, setMenuAberto] = useState(true);
@@ -18,14 +18,14 @@ const Header = () => {
                 </div>
             </Container>
             {menuAberto && (
-                <div className="menu">
+                <Menu>
                     <div className="links">
                         <a href="#">Cardápio</a>
                         <a href="#">Horários/Endereço</a>
                         <a href="#">Sobre nós</a>
                         <a href="#">Fale conosco</a>
                     </div>
-                </div>
+                </Menu>
             )}
         </>
     );

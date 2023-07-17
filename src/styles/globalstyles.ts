@@ -25,10 +25,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-body {
-    font-family: 'Avenir Next LT Pro', sans-serif;
-    font-weight: normal;
-}
+// body {
+//     font-family: 'Avenir Next LT Pro', sans-serif;
+//     font-weight: normal;
+// }
 
 .img_title {
     @media (max-width: 899px){
@@ -74,14 +74,6 @@ body {
         text-decoration: none;
         transition: all 0.3s ease-in-out;
     }
-}
-
-.menu {
-    background-color: var(--background);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .links a:hover {
