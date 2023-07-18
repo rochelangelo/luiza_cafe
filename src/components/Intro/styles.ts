@@ -6,6 +6,7 @@ export const Content = styled.div`
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding-bottom: 65px;
 `;
 
 export const TextoInto = styled.div`

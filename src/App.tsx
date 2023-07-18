@@ -6,6 +6,7 @@ import Header from './components/Header';
 import VideoApresentacao from './components/VideoApresentacao';
 import ScrollIndicator from './components/ScrollIndicator';
 import Intro from './components/Intro';
+import CarouselImages from './components/CarouselImages';
 
 function App() {
   const contentRef = React.useRef<HTMLDivElement>(null);
@@ -19,6 +20,7 @@ function App() {
       <div className="content-wrapper" ref={contentRef}>
         <div id="content">
           <Intro />
+          <CarouselImages />
         </div>
       </div>
     </div>
