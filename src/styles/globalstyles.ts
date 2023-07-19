@@ -23,6 +23,7 @@ html{
 
 body {
     -webkit-font-smoothing: antialiased;
+    background-color: var(--background-color)
 }
 
 // body {
