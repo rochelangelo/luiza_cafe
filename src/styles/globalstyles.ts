@@ -49,7 +49,7 @@ body {
         width: 70%;
         padding: 10px;
         box-sizing: border-box;
-        font-size: 12px;
+        font-size: 15px;
         font-weight: normal;
     }
     @media (min-width: 900px){
@@ -58,7 +58,7 @@ body {
         width: 70%;
         padding: 10px;
         box-sizing: border-box;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: normal;
     }
 }
