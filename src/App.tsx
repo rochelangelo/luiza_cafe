@@ -1,5 +1,4 @@
 import React from 'react';
-import { Element, scroller } from 'react-scroll';
 import { GlobalStyles } from './styles/globalstyles';
 import { } from './styles/styles';
 import Header from './components/Header';
@@ -7,6 +6,7 @@ import VideoApresentacao from './components/VideoApresentacao';
 import ScrollIndicator from './components/ScrollIndicator';
 import Intro from './components/Intro';
 import CarouselImages from './components/CarouselImages';
+import SocialBar from './components/SocialBar';
 
 function App() {
   const contentRef = React.useRef<HTMLDivElement>(null);
@@ -21,6 +21,7 @@ function App() {
         <div id="content">
           <Intro />
           <CarouselImages />
+          <SocialBar />
         </div>
       </div>
     </div>
