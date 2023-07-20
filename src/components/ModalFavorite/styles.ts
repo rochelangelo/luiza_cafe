@@ -22,6 +22,9 @@ export const ModalContent = styled.div`
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  @media (max-width: 600px){
+    max-width: 250px;
+  }
 `;
 
 export const CloseButton = styled.button`
