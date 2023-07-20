@@ -12,8 +12,8 @@
 /toDo
 
 # Ignorar arquivos de mídia e fonte
-/public/images/*
-/public/fonts/*
+# /public/images/*
+# /public/fonts/*
 
 # production
 /build

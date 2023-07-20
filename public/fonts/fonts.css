@@ -1,0 +1,26 @@
+/* AvenirNextLTPro-Bold */
+@font-face {
+    font-family: 'AvenirNextLTPro-Bold';
+    font-weight: bold;
+    font-style: normal;
+    src: url('./AvenirNextLTPro-Bold.otf') format('opentype');
+  }
+  /* font-family: 'AvenirNextLTPro-Bold', sans-serif; */
+
+  /* AvenirNextLTPro-lt */
+  @font-face {
+    font-family: 'AvenirNextLTPro-lt';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./AvenirNextLTPro-lt.otf') format('opentype');
+  }
+  /* font-family: 'AvenirNextLTPro-lt', sans-serif; */
+
+  /* AvenirNextLTPro-Regular */
+  @font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./AvenirNextLTPro-Regular.otf') format('opentype');
+  }
+  /* font-family: 'AvenirNextLTPro-Regular', sans-serif; */
