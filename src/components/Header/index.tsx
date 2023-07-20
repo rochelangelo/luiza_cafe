@@ -20,10 +20,10 @@ const Header = () => {
             {menuAberto && (
                 <Menu>
                     <div className="links">
-                        <a href="#">Cardápio</a>
-                        <a href="#">Horários/Endereço</a>
-                        <a href="#">Sobre nós</a>
-                        <a href="#">Fale conosco</a>
+                        <a href="/cardapio">Cardápio</a>
+                        <a href="/horarios-endereco">Horários/Endereço</a>
+                        <a href="/sobre-nos">Sobre nós</a>
+                        <a href="/fale-conosco">Fale conosco</a>
                     </div>
                 </Menu>
             )}
