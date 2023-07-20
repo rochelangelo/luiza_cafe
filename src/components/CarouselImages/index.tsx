@@ -5,7 +5,9 @@ import ModalFavorite from '../ModalFavorite';
 
 const responsive = {
   0: { items: 1 },
-  568: { items: 1.5 },
+  400: { items: 2 },
+  521: { items: 2.5 },
+  568: { items: 3.5 },
   900: { items: 2 },
   950: { items: 2.3 },
   1024: { items: 2.5 },

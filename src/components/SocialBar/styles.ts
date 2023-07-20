@@ -21,9 +21,18 @@ export const Item = styled.div`
     &:hover {
         transform: scale(1.1); /* Ao passar o mouse, aumenta em 10% (escala 1.1) */
     }
+
+    @media (max-width: 600px){
+        height: 400px;
+        width: 150px;
+    }
 `;
 
 export const Image = styled.img`
+    @media (max-width: 600px){
+        height: 8vw;
+        width: 8vw;
+    }
     @media (max-width: 899px){
         height: 10vw;
         width: 10vw;
@@ -44,6 +53,9 @@ export const Description = styled.h3`
 
     font-family: 'AvenirNextLTPro-Bold', sans-serif;
     font-size: 15px;
+    @media (max-width: 600px){
+        font-size: 12px;
+    }
 `;
 
 export const Anchor = styled.a`

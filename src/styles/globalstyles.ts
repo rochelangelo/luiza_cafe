@@ -33,7 +33,7 @@ body {
 
 .img_title {
     @media (max-width: 899px){
-        width: 20%;
+        width: 40%;
         object-fit: fill;
     }
     @media (min-width: 900px){

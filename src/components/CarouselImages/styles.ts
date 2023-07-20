@@ -15,11 +15,25 @@ export const Item = styled.div`
     text-align: center;
     align-items: center;
     overflow: hidden;
+    @media (max-width: 899px) {
+        height: 150px;
+        width: 150px;
+    }
 `;
 
 export const Image = styled.img`
     height: 400px;
     width: 400px;
+    @media (max-width: 899px) {
+        height: 150px;
+        width: 150px;
+    }
+
+    @media (max-width: 899px) {
+        height: 150px;
+        width: 150px;
+    }
+
 `;
 
 export const ContainerTitle = styled.div`
