@@ -1,6 +1,6 @@
 import React from 'react';
 import { GlobalStyles } from './styles/globalstyles';
-import { } from './styles/styles';
+// import { } from './styles/styles';
 import Header from './components/Header';
 import VideoApresentacao from './components/VideoApresentacao';
 import ScrollIndicator from './components/ScrollIndicator';
