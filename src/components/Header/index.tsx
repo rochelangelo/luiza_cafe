@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Menu } from './styles';
 
 const Header = () => {
@@ -7,6 +7,13 @@ const Header = () => {
     const handleAbrirMenu = () => {
         setMenuAberto(!menuAberto);
     };
+
+    useEffect(() => {
+        const isMobile = window.innerWidth <= 900;
+        if (isMobile) {
+            setMenuAberto(false);
+        }
+    }, []);
 
     return (
         <>
